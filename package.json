@@ -1,0 +1,26 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhattung25/Shopping-Cart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhattung25/Shopping-Cart/issues"
+  },
+  "homepage": "https://github.com/nhattung25/Shopping-Cart#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
