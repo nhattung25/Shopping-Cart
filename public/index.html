@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thực hành shopping cart</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title"><h1>SHOPPING CART</h1></div>
+      <div class="nav">
+        <div class="menu">
+          <div class="home">Home</div>
+          >
+          <div class="shopping-cart">Shopping Cart</div>
+        </div>
+        <div class="item-count">3 item in the bag</div>
+      </div>
+      <div class="item-list"></div>
+      <div class="total">
+        <div class="discount">
+          <p>Have a promo code</p>
+          <div class="input-code">
+            <input type="text" id="promo-code" placeholder="Enter code here" />
+            <div class="enter-btn">
+              <button type="button">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="sub-total">
+          <div class="sub">
+            <div class="sub-title">Subtotal</div>
+            <div class="sub-cost">$21.47</div>
+          </div>
+          <div class="tax">
+            <div class="tax-title">VAT</div>
+            <div class="tax-total">$5.00</div>
+          </div>
+          <div class="discountAmount">
+            <div class="discount-title">Discount</div>
+            <div class="discount-total">$5.00</div>
+          </div>
+          <div class="total-cost">
+            <div class="total-title">Total</div>
+            <div class="total-amount">$26.97</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+</html>

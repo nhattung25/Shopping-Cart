@@ -6,10 +6,18 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, velit.",
       "price": 250000,
       "image": "https://thumbs.dreamstime.com/b/cute-tender-feminine-caucasian-woman-orange-hoodie-show-peace-signs-over-eyes-tilt-head-looking-left-happy-smiling-broadly-174846258.jpg",
-      "count": 2
+      "count": 1
     },
     {
       "id": 2,
+      "name": "Áo trắng bèo lé đen tay loe dễ thương",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, velit.",
+      "price": 350000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ivdq4lILjlQDJ5tUFN_zawLtvnL4pZLs58IfiXX1JoqcYyTqoalI3QwuOT1fHwp-N5o&usqp=CAU",
+      "count": 1
+    },
+    {
+      "id": 3,
       "name": "Áo trắng bèo lé đen tay loe dễ thương",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, velit.",
       "price": 350000,
